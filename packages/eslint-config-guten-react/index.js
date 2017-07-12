@@ -1,13 +1,16 @@
 module.exports = {
    extends: [
-    'eslint-config-guten',
-    'eslint-config-airbnb-base/rules/strict',
-    'eslint-config-airbnb/rules/react',
-    'eslint-config-airbnb/rules/react-a11y',
-  ].map(require.resolve),
+    "guten",
+    "airbnb/rules/react",
+    "prettier/react"
+  ],
 
   "rules": {
-    'react/no-direct-mutation-state': 'off',
-    'jsx-a11y/alt-text': 'off',
+    "react/no-direct-mutation-state": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
+    "react/sort-comp": "off",  // class { onClick(), render(), ... }
+    "class-methods-use-this": "off", // class { method() { this.a = 1 }}
   }
 }
