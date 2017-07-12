@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+test() {
+  node_modules/.bin/eslint --no-eslintrc -c ./index.js test.js
+}
+
+case "$1" in
+  t | test ) test ;;
+esac
