@@ -1,5 +1,4 @@
-class Hello {
-  a = 1
-}
+//import React from 'react
 
-export default Hello
+const Name = () => <div>hello</div>
+//console.log(<Name />)

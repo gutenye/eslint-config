@@ -1,5 +1,12 @@
 module.exports = {
-  "extends": "airbnb-base",
+  "extends": [
+    "airbnb-base",
+    "prettier"               // disable rules not needed, e.g. semi: off
+  ],
+  "env": {
+    "browser": true,         // add global variables, e.g. localStorage
+    "node": true
+  },
   "parser": "babel-eslint",  // for Flow
   "globals": { pd: true, $: true, $$: true, __DEV__: true },
   "rules": {
@@ -16,6 +23,15 @@ module.exports = {
     "import/prefer-default-export": "off",
     "no-console": "off",
     "no-trailing-spaces": "off",
-    "space-infix-opts": "off"
+    "space-infix-opts": "off",
+    "no-else-return": "off",    // if (true) { return a } else { return b }
+    "dot-notation": "off"       // user['name']
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["src", "node_modules"]
+      }
+    }
   }
 }
