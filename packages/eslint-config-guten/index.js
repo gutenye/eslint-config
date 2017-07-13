@@ -2,12 +2,17 @@ module.exports = {
   "extends": [
     "airbnb-base",
     "prettier",               // disable rules not needed, e.g. semi: off
-    "prettier/flowtype"
+    "prettier/flowtype",
+    "plugin:jest/recommended"
   ],
   "env": {
     "browser": true,         // add global variables, e.g. localStorage
-    "node": true
+    "node": true,
+    "jest/globals": true,
   },
+  "plugins": [
+    "jest",
+  ],
   "parser": "babel-eslint",  // for Flow
   "globals": { pd: true, $: true, $$: true, __DEV__: true },
   "rules": {
@@ -21,6 +26,7 @@ module.exports = {
     "no-trailing-spaces": "off",
     "no-else-return": "off",    // if (true) { return a } else { return b }
     "no-underscore-dangle": "off",
+    "no-shadow": "off", // function q() { return ({q}) => { .. } }
     "arrow-body-style": "off",
     "comma-dangle": "off",
     "class-methods-use-this": "off", // class { method() { this.a = 1 }}
