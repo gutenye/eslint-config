@@ -37,6 +37,9 @@ module.exports = {
     "semi": "off",
     "spaced-comment": "off",
     "space-infix-opts": "off",
+    "func-names": "off", // function() {}
+    "operator-assignment": "off", // this.a = this.a + 1 -> this.a ++
+    "no-use-before-define": "off"
   },
   "settings": {
     "import/resolver": {
