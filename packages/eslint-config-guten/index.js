@@ -27,6 +27,7 @@ module.exports = {
     "no-else-return": "off",    // if (true) { return a } else { return b }
     "no-underscore-dangle": "off",
     "no-shadow": "off", // function q() { return ({q}) => { .. } }
+    "no-lonely-if": "off", // else { if is the only statement } 
     "arrow-body-style": "off",
     "comma-dangle": "off",
     "class-methods-use-this": "off", // class { method() { this.a = 1 }}
