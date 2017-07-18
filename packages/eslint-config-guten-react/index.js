@@ -11,6 +11,7 @@ module.exports = {
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
     "react/sort-comp": "off",  // class { onClick(), render(), ... }
+    "react/require-default-props": "off",
     "class-methods-use-this": "off", // class { method() { this.a = 1 }}
   }
 }
