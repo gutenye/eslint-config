@@ -5,9 +5,10 @@
   "repository": "gutenye/eslint-config-guten",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-guten": "^1.1.15",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
   }
 }

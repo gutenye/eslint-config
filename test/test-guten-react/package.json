@@ -1,0 +1,12 @@
+{
+  "name": "test-guten-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "guten-react"
+  },
+  "dependencies": {
+    "eslint-config-guten-react": "file:../../packages/eslint-config-guten-react"
+  }
+}

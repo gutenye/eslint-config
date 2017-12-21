@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+test() {
+  cd test/test-guten
+  yarn add file:../../packages/eslint-config-guten
+  node_modules/.bin/eslint a.js
+
+  cd ../test-guten-react
+  yarn add file:../../packages/eslint-config-guten-react
+  node_modules/.bin/eslint a.js
+}
+
+case "$1" in
+  test ) test ;;
+esac
