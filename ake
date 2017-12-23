@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+publish() {
+  lerna publish
+}
+
 test() {
   cd test/test-guten
   yarn add file:../../packages/eslint-config-guten
@@ -12,4 +16,5 @@ test() {
 
 case "$1" in
   test ) test ;;
+  publish ) publish ;;
 esac

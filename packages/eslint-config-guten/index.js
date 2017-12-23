@@ -30,6 +30,8 @@ module.exports = {
     "no-lonely-if": "off", // else { if is the only statement } 
     "no-return-assign": "off", // () => this.a = 1
     "no-plusplus": "off", // for (...; i++)
+    "no-template-curly-in-string": "off", // '${name}'
+    "consistent-return": "off", // if (a) { return } else { return 1 }
     "arrow-body-style": "off",
     "comma-dangle": "off",
     "class-methods-use-this": "off", // class { method() { this.a = 1 }}
