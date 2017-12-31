@@ -1,11 +1,11 @@
 module.exports = {
-  "parser": "babel-eslint",   // class-properties
   "extends": [
     "standard", 
     "plugin:jest/recommended",
     "prettier",
     "prettier/standard"
   ],
+  "parser": "babel-eslint",   // for class-properties
   "plugins": [
     "jest",
   ],

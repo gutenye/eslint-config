@@ -1,10 +1,10 @@
 module.exports = {
-  "parser": "typescript-eslint-parser",
-  "plugins": ["typescript"],
   "extends": [
     "guten", 
     "guten-react",
   ],
+  "parser": "typescript-eslint-parser",
+  "plugins": ["typescript"],
   "rules": {
     "no-undef": "off",              // not support it
     "no-unused-vars": "off",        // not support it

@@ -1,5 +1,5 @@
 module.exports = {
-   extends: [
+   "extends": [
     "guten",
     "standard-react",
     "prettier/react"
