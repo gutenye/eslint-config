@@ -15,7 +15,6 @@ module.exports = {
     "typescript/no-namespace": "error",
     "typescript/no-parameter-properties": "error",
     "typescript/no-triple-slash-reference": "error",
-    "typescript/no-use-before-define": "error",
     "typescript/type-annotation-spacing": "error",
   },
 }
