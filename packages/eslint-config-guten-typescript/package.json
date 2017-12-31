@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guten-typescript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "repository": "gutenye/eslint-config",
   "license": "MIT",
