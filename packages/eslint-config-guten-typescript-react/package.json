@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-guten-typescript-react",
-  "version": "1.1.20",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "gutenye/eslint-config",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-guten-react": "^1.1.20",
-    "eslint-config-guten-typescript": "^1.1.20"
+    "eslint-config-guten-react": "^2.0.0",
+    "eslint-config-guten-typescript": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^4.14.0",
