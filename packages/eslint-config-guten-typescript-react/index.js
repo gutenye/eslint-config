@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "guten", 
+    "guten-typescript", 
     "guten-react",
   ],
 }
