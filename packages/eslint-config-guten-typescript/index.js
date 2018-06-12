@@ -1,7 +1,6 @@
 module.exports = {
   "extends": [
     "guten", 
-    "guten-react",
   ],
   "parser": "typescript-eslint-parser",
   "plugins": ["typescript"],
